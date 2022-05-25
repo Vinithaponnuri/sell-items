@@ -1,2 +1,9 @@
 # sell-items
 ass4
+
+
+class Solution:
+    def solve(self, A, B):
+        actual_days = (B+A-1)//A
+        weeks = (actual_days+4)//5 
+        return int(weeks)
